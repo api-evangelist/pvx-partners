@@ -1,8 +1,18 @@
 aid: pvx-partners
 name: Pvx Partners
-description: Pvx Partners is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  PvX Partners (PvX Partners Pte Ltd) is a Singapore-based fintech platform that
+  provides non-dilutive, performance-based user-acquisition (UA) financing for
+  mobile gaming and consumer app studios. Its PvX Capital product offers a
+  flexible credit line covering up to 80% of monthly marketing spend with no
+  equity dilution, term sheets within 24 hours, and funds within 30 days,
+  secured by and repaid from funded user cohorts. PvX Lambda is a cohort
+  intelligence engine offering cohort-based ROAS projections, benchmarking, and
+  funding-eligibility analysis across 650+ apps and 14,500+ cohorts, and PvX
+  Delta rounds out the analytics suite. The firm reports $1B+ in capital
+  committed across 100+ client companies. Surfaced as a portfolio company of
+  General Catalyst and profiled in the API Evangelist network; it publishes no
+  public developer API at this time.
 url: https://raw.githubusercontent.com/api-evangelist/pvx-partners/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +20,55 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://www.pvxpartners.com/favicon.ico
 tags:
 - Company
+- Fintech
+- Financing
+- User Acquisition
+- Mobile Gaming
+- Consumer Apps
+- Analytics
+- Venture Debt
 apis: []
+common:
+- type: DomainSecurity
+  url: security/pvx-partners-domain-security.yml
+- type: Website
+  url: https://www.pvxpartners.com/
+- type: About
+  url: https://www.pvxpartners.com/about-us
+- type: Blog
+  url: https://www.pvxpartners.com/blog
+- type: FAQ
+  url: https://www.pvxpartners.com/faq
+- type: TermsOfService
+  url: https://www.pvxpartners.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.pvxpartners.com/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/pvx-partners
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
